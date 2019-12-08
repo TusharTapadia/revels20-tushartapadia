@@ -7,27 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB7485322397E88100A2E8E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7485312397E88100A2E8E3 /* AppDelegate.swift */; };
-		BB7485342397E88100A2E8E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7485332397E88100A2E8E3 /* SceneDelegate.swift */; };
-		BB7485362397E88100A2E8E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7485352397E88100A2E8E3 /* ViewController.swift */; };
-		BB7485392397E88100A2E8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7485372397E88100A2E8E3 /* Main.storyboard */; };
-		BB74853B2397E88200A2E8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB74853A2397E88200A2E8E3 /* Assets.xcassets */; };
-		BB74853E2397E88200A2E8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB74853C2397E88200A2E8E3 /* LaunchScreen.storyboard */; };
+		BB262F20239CEDF0002E6752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB262F1F239CEDF0002E6752 /* AppDelegate.swift */; };
+		BB262F22239CEDF0002E6752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB262F21239CEDF0002E6752 /* SceneDelegate.swift */; };
+		BB262F24239CEDF0002E6752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB262F23239CEDF0002E6752 /* ViewController.swift */; };
+		BB262F27239CEDF0002E6752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB262F25239CEDF0002E6752 /* Main.storyboard */; };
+		BB262F29239CEDF1002E6752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB262F28239CEDF1002E6752 /* Assets.xcassets */; };
+		BB262F2C239CEDF1002E6752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB262F2A239CEDF1002E6752 /* LaunchScreen.storyboard */; };
+		BB262F37239CEDF1002E6752 /* revels20_tushartapadiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB262F36239CEDF1002E6752 /* revels20_tushartapadiaTests.swift */; };
+		BB262F42239CEDF1002E6752 /* revels20_tushartapadiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB262F41239CEDF1002E6752 /* revels20_tushartapadiaUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BB262F33239CEDF1002E6752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB262F14239CEDF0002E6752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB262F1B239CEDF0002E6752;
+			remoteInfo = "revels20-tushartapadia";
+		};
+		BB262F3E239CEDF1002E6752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB262F14239CEDF0002E6752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB262F1B239CEDF0002E6752;
+			remoteInfo = "revels20-tushartapadia";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		BB74852E2397E88100A2E8E3 /* revels20-tushartapadia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "revels20-tushartapadia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7485312397E88100A2E8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB7485332397E88100A2E8E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB7485352397E88100A2E8E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB7485382397E88100A2E8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB74853A2397E88200A2E8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB74853D2397E88200A2E8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BB74853F2397E88200A2E8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB262F1C239CEDF0002E6752 /* revels20-tushartapadia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "revels20-tushartapadia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB262F1F239CEDF0002E6752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB262F21239CEDF0002E6752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB262F23239CEDF0002E6752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB262F26239CEDF0002E6752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB262F28239CEDF1002E6752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB262F2B239CEDF1002E6752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB262F2D239CEDF1002E6752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB262F32239CEDF1002E6752 /* revels20-tushartapadiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "revels20-tushartapadiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB262F36239CEDF1002E6752 /* revels20_tushartapadiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revels20_tushartapadiaTests.swift; sourceTree = "<group>"; };
+		BB262F38239CEDF1002E6752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB262F3D239CEDF1002E6752 /* revels20-tushartapadiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "revels20-tushartapadiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB262F41239CEDF1002E6752 /* revels20_tushartapadiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revels20_tushartapadiaUITests.swift; sourceTree = "<group>"; };
+		BB262F43239CEDF1002E6752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB74852B2397E88100A2E8E3 /* Frameworks */ = {
+		BB262F19239CEDF0002E6752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB262F2F239CEDF1002E6752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB262F3A239CEDF1002E6752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +76,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB7485252397E88100A2E8E3 = {
+		BB262F13239CEDF0002E6752 = {
 			isa = PBXGroup;
 			children = (
-				BB7485302397E88100A2E8E3 /* revels20-tushartapadia */,
-				BB74852F2397E88100A2E8E3 /* Products */,
+				BB262F1E239CEDF0002E6752 /* revels20-tushartapadia */,
+				BB262F35239CEDF1002E6752 /* revels20-tushartapadiaTests */,
+				BB262F40239CEDF1002E6752 /* revels20-tushartapadiaUITests */,
+				BB262F1D239CEDF0002E6752 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BB74852F2397E88100A2E8E3 /* Products */ = {
+		BB262F1D239CEDF0002E6752 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB74852E2397E88100A2E8E3 /* revels20-tushartapadia.app */,
+				BB262F1C239CEDF0002E6752 /* revels20-tushartapadia.app */,
+				BB262F32239CEDF1002E6752 /* revels20-tushartapadiaTests.xctest */,
+				BB262F3D239CEDF1002E6752 /* revels20-tushartapadiaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB7485302397E88100A2E8E3 /* revels20-tushartapadia */ = {
+		BB262F1E239CEDF0002E6752 /* revels20-tushartapadia */ = {
 			isa = PBXGroup;
 			children = (
-				BB7485312397E88100A2E8E3 /* AppDelegate.swift */,
-				BB7485332397E88100A2E8E3 /* SceneDelegate.swift */,
-				BB7485352397E88100A2E8E3 /* ViewController.swift */,
-				BB7485372397E88100A2E8E3 /* Main.storyboard */,
-				BB74853A2397E88200A2E8E3 /* Assets.xcassets */,
-				BB74853C2397E88200A2E8E3 /* LaunchScreen.storyboard */,
-				BB74853F2397E88200A2E8E3 /* Info.plist */,
+				BB262F1F239CEDF0002E6752 /* AppDelegate.swift */,
+				BB262F21239CEDF0002E6752 /* SceneDelegate.swift */,
+				BB262F23239CEDF0002E6752 /* ViewController.swift */,
+				BB262F25239CEDF0002E6752 /* Main.storyboard */,
+				BB262F28239CEDF1002E6752 /* Assets.xcassets */,
+				BB262F2A239CEDF1002E6752 /* LaunchScreen.storyboard */,
+				BB262F2D239CEDF1002E6752 /* Info.plist */,
 			);
 			path = "revels20-tushartapadia";
+			sourceTree = "<group>";
+		};
+		BB262F35239CEDF1002E6752 /* revels20-tushartapadiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB262F36239CEDF1002E6752 /* revels20_tushartapadiaTests.swift */,
+				BB262F38239CEDF1002E6752 /* Info.plist */,
+			);
+			path = "revels20-tushartapadiaTests";
+			sourceTree = "<group>";
+		};
+		BB262F40239CEDF1002E6752 /* revels20-tushartapadiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB262F41239CEDF1002E6752 /* revels20_tushartapadiaUITests.swift */,
+				BB262F43239CEDF1002E6752 /* Info.plist */,
+			);
+			path = "revels20-tushartapadiaUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB74852D2397E88100A2E8E3 /* revels20-tushartapadia */ = {
+		BB262F1B239CEDF0002E6752 /* revels20-tushartapadia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB7485422397E88200A2E8E3 /* Build configuration list for PBXNativeTarget "revels20-tushartapadia" */;
+			buildConfigurationList = BB262F46239CEDF1002E6752 /* Build configuration list for PBXNativeTarget "revels20-tushartapadia" */;
 			buildPhases = (
-				BB74852A2397E88100A2E8E3 /* Sources */,
-				BB74852B2397E88100A2E8E3 /* Frameworks */,
-				BB74852C2397E88100A2E8E3 /* Resources */,
+				BB262F18239CEDF0002E6752 /* Sources */,
+				BB262F19239CEDF0002E6752 /* Frameworks */,
+				BB262F1A239CEDF0002E6752 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +145,69 @@
 			);
 			name = "revels20-tushartapadia";
 			productName = "revels20-tushartapadia";
-			productReference = BB74852E2397E88100A2E8E3 /* revels20-tushartapadia.app */;
+			productReference = BB262F1C239CEDF0002E6752 /* revels20-tushartapadia.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BB262F31239CEDF1002E6752 /* revels20-tushartapadiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB262F49239CEDF1002E6752 /* Build configuration list for PBXNativeTarget "revels20-tushartapadiaTests" */;
+			buildPhases = (
+				BB262F2E239CEDF1002E6752 /* Sources */,
+				BB262F2F239CEDF1002E6752 /* Frameworks */,
+				BB262F30239CEDF1002E6752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB262F34239CEDF1002E6752 /* PBXTargetDependency */,
+			);
+			name = "revels20-tushartapadiaTests";
+			productName = "revels20-tushartapadiaTests";
+			productReference = BB262F32239CEDF1002E6752 /* revels20-tushartapadiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB262F3C239CEDF1002E6752 /* revels20-tushartapadiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB262F4C239CEDF1002E6752 /* Build configuration list for PBXNativeTarget "revels20-tushartapadiaUITests" */;
+			buildPhases = (
+				BB262F39239CEDF1002E6752 /* Sources */,
+				BB262F3A239CEDF1002E6752 /* Frameworks */,
+				BB262F3B239CEDF1002E6752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB262F3F239CEDF1002E6752 /* PBXTargetDependency */,
+			);
+			name = "revels20-tushartapadiaUITests";
+			productName = "revels20-tushartapadiaUITests";
+			productReference = BB262F3D239CEDF1002E6752 /* revels20-tushartapadiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BB7485262397E88100A2E8E3 /* Project object */ = {
+		BB262F14239CEDF0002E6752 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Tushar Tapadia";
 				TargetAttributes = {
-					BB74852D2397E88100A2E8E3 = {
+					BB262F1B239CEDF0002E6752 = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					BB262F31239CEDF1002E6752 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BB262F1B239CEDF0002E6752;
+					};
+					BB262F3C239CEDF1002E6752 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = BB262F1B239CEDF0002E6752;
 					};
 				};
 			};
-			buildConfigurationList = BB7485292397E88100A2E8E3 /* Build configuration list for PBXProject "revels20-tushartapadia" */;
+			buildConfigurationList = BB262F17239CEDF0002E6752 /* Build configuration list for PBXProject "revels20-tushartapadia" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +215,100 @@
 				en,
 				Base,
 			);
-			mainGroup = BB7485252397E88100A2E8E3;
-			productRefGroup = BB74852F2397E88100A2E8E3 /* Products */;
+			mainGroup = BB262F13239CEDF0002E6752;
+			productRefGroup = BB262F1D239CEDF0002E6752 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB74852D2397E88100A2E8E3 /* revels20-tushartapadia */,
+				BB262F1B239CEDF0002E6752 /* revels20-tushartapadia */,
+				BB262F31239CEDF1002E6752 /* revels20-tushartapadiaTests */,
+				BB262F3C239CEDF1002E6752 /* revels20-tushartapadiaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BB74852C2397E88100A2E8E3 /* Resources */ = {
+		BB262F1A239CEDF0002E6752 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB74853E2397E88200A2E8E3 /* LaunchScreen.storyboard in Resources */,
-				BB74853B2397E88200A2E8E3 /* Assets.xcassets in Resources */,
-				BB7485392397E88100A2E8E3 /* Main.storyboard in Resources */,
+				BB262F2C239CEDF1002E6752 /* LaunchScreen.storyboard in Resources */,
+				BB262F29239CEDF1002E6752 /* Assets.xcassets in Resources */,
+				BB262F27239CEDF0002E6752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB262F30239CEDF1002E6752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB262F3B239CEDF1002E6752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BB74852A2397E88100A2E8E3 /* Sources */ = {
+		BB262F18239CEDF0002E6752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7485362397E88100A2E8E3 /* ViewController.swift in Sources */,
-				BB7485322397E88100A2E8E3 /* AppDelegate.swift in Sources */,
-				BB7485342397E88100A2E8E3 /* SceneDelegate.swift in Sources */,
+				BB262F24239CEDF0002E6752 /* ViewController.swift in Sources */,
+				BB262F20239CEDF0002E6752 /* AppDelegate.swift in Sources */,
+				BB262F22239CEDF0002E6752 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB262F2E239CEDF1002E6752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB262F37239CEDF1002E6752 /* revels20_tushartapadiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB262F39239CEDF1002E6752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB262F42239CEDF1002E6752 /* revels20_tushartapadiaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BB262F34239CEDF1002E6752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB262F1B239CEDF0002E6752 /* revels20-tushartapadia */;
+			targetProxy = BB262F33239CEDF1002E6752 /* PBXContainerItemProxy */;
+		};
+		BB262F3F239CEDF1002E6752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB262F1B239CEDF0002E6752 /* revels20-tushartapadia */;
+			targetProxy = BB262F3E239CEDF1002E6752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		BB7485372397E88100A2E8E3 /* Main.storyboard */ = {
+		BB262F25239CEDF0002E6752 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BB7485382397E88100A2E8E3 /* Base */,
+				BB262F26239CEDF0002E6752 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BB74853C2397E88200A2E8E3 /* LaunchScreen.storyboard */ = {
+		BB262F2A239CEDF1002E6752 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BB74853D2397E88200A2E8E3 /* Base */,
+				BB262F2B239CEDF1002E6752 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BB7485402397E88200A2E8E3 /* Debug */ = {
+		BB262F44239CEDF1002E6752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		BB7485412397E88200A2E8E3 /* Release */ = {
+		BB262F45239CEDF1002E6752 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +430,7 @@
 			};
 			name = Release;
 		};
-		BB7485432397E88200A2E8E3 /* Debug */ = {
+		BB262F47239CEDF1002E6752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		BB7485442397E88200A2E8E3 /* Release */ = {
+		BB262F48239CEDF1002E6752 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -314,28 +464,126 @@
 			};
 			name = Release;
 		};
+		BB262F4A239CEDF1002E6752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "revels20-tushartapadiaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revels20.revels20-tushartapadiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/revels20-tushartapadia.app/revels20-tushartapadia";
+			};
+			name = Debug;
+		};
+		BB262F4B239CEDF1002E6752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "revels20-tushartapadiaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revels20.revels20-tushartapadiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/revels20-tushartapadia.app/revels20-tushartapadia";
+			};
+			name = Release;
+		};
+		BB262F4D239CEDF1002E6752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "revels20-tushartapadiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revels20.revels20-tushartapadiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "revels20-tushartapadia";
+			};
+			name = Debug;
+		};
+		BB262F4E239CEDF1002E6752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "revels20-tushartapadiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revels20.revels20-tushartapadiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "revels20-tushartapadia";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB7485292397E88100A2E8E3 /* Build configuration list for PBXProject "revels20-tushartapadia" */ = {
+		BB262F17239CEDF0002E6752 /* Build configuration list for PBXProject "revels20-tushartapadia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB7485402397E88200A2E8E3 /* Debug */,
-				BB7485412397E88200A2E8E3 /* Release */,
+				BB262F44239CEDF1002E6752 /* Debug */,
+				BB262F45239CEDF1002E6752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB7485422397E88200A2E8E3 /* Build configuration list for PBXNativeTarget "revels20-tushartapadia" */ = {
+		BB262F46239CEDF1002E6752 /* Build configuration list for PBXNativeTarget "revels20-tushartapadia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB7485432397E88200A2E8E3 /* Debug */,
-				BB7485442397E88200A2E8E3 /* Release */,
+				BB262F47239CEDF1002E6752 /* Debug */,
+				BB262F48239CEDF1002E6752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB262F49239CEDF1002E6752 /* Build configuration list for PBXNativeTarget "revels20-tushartapadiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB262F4A239CEDF1002E6752 /* Debug */,
+				BB262F4B239CEDF1002E6752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB262F4C239CEDF1002E6752 /* Build configuration list for PBXNativeTarget "revels20-tushartapadiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB262F4D239CEDF1002E6752 /* Debug */,
+				BB262F4E239CEDF1002E6752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BB7485262397E88100A2E8E3 /* Project object */;
+	rootObject = BB262F14239CEDF0002E6752 /* Project object */;
 }
