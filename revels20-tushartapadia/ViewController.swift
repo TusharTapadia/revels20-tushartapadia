@@ -31,6 +31,15 @@ func firsteven()
         }
     }
 }
+    func firstevensquare(){
+        for i in 1...40{
+            if(i%2==0){
+               print(i)
+            }else{
+              continue
+            }
+        }
+    }
     
     func firstodd(){
         
